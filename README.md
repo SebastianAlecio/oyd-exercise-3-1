@@ -74,6 +74,20 @@ terraform destroy -var-file=envs/dev/dev.tfvars
 4. `terraform plan -var-file=envs/dev/dev.tfvars` — requiere credenciales AWS desde GitHub Secrets.
 5. Publica la salida del plan como comentario colapsable en el PR (no bloqueante).
 
+### Ejecución de demostración
+
+| Recurso             | Enlace                                                                                                  |
+|---------------------|---------------------------------------------------------------------------------------------------------|
+| Pull request        | <https://github.com/SebastianAlecio/oyd-exercise-3-1/pull/1>                                            |
+| Workflow run        | <https://github.com/SebastianAlecio/oyd-exercise-3-1/actions/runs/25403248837>                          |
+| Resultado           | success — 5 steps en 22s, comentario con el plan posteado en el PR                                      |
+
+Resumen del plan publicado en el PR:
+
+```
+Plan: 5 to add, 0 to change, 0 to destroy.
+```
+
 ### Secrets requeridos en GitHub
 
 | Secret                  | Valor                                                       |
