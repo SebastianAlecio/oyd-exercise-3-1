@@ -1,3 +1,4 @@
+# Dev environment values for the compute_ec2 module
 region              = "us-west-2"
 environment         = "dev"
 name                = "oyd-ex31"
